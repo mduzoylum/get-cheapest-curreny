@@ -37,7 +37,7 @@ Projeyi klonlayın:
 ```sh
 https://github.com/mduzoylum/get-cheapest-curreny.git
 ```
-Projeket klasörüne gidin:
+Proje klasörüne gidin:
 ```sh
 cd get-cheapest-curreny
 ```

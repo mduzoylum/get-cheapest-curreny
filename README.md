@@ -4,7 +4,7 @@ Bu uygulama, farklı döviz kuru API'larından veri alarak en ucuz döviz kurlar
 
 ### Dosyalar ve Klasörler
 #### Commands/FetchCurrencyRates.php: 
-> Bu dosya, konsoldan çalıştırılarak döviz kurlarını API'lerden alır ve veritabanına kaydeder.
+> Bu dosya, konsoldan çalıştırılarak döviz kurlarını API'lerden alır ve veritabanına kaydetmeye yarayan komut dosyasını içerir.
 
 #### Guzzle/Api1Client.php: 
 > Bu sınıf, ilk API'den döviz kurlarını almak için kullanılır.
@@ -18,7 +18,7 @@ Bu uygulama, farklı döviz kuru API'larından veri alarak en ucuz döviz kurlar
 > Bu model, döviz kurlarını veritabanında temsil eder.
 
 #### Services/CurrencyService.php: 
-> Bu servis sınıfı, API'lerden döviz kurlarını alır, karşılaştırır ve en ucuz olanları veritabanına kaydeder.
+> Bu servis sınıfı, console komutu tarafından çağrılarak bind edilen kurları alıp ve veritabanına kaydetmeye yarayan metotları içerir.
 
 #### Exceptions/ApiException.php:
 > Bu sınıf, API isteklerinde oluşan hataları temsil eder ve özel hata mesajları içerir.
@@ -37,7 +37,7 @@ Projeyi klonlayın:
 ```sh
 https://github.com/mduzoylum/get-cheapest-curreny.git
 ```
-Projeket klasörüne gidin:
+Proje klasörüne gidin:
 ```sh
 cd get-cheapest-curreny
 ```
